@@ -1,0 +1,77 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+    background-color: rgb(236, 232, 227);
+}
+header h1 span{
+    color: rgb(124, 10, 120);
+}
+
+header h1{
+    margin-right: 300px;
+    font-size: 40px;
+}
+
+header a{
+    padding: 0px 15px;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.918);
+}
+
+header a:hover{
+    color: rgb(124, 10, 120);
+}
+
+section{
+    display: block;
+}
+
+section h1{
+    font-size: 80px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+section h5{
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+section p{
+    margin-left: 50px;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+section input{
+    background-color: purple;
+    color: white;
+    padding: 10px 10px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 10px;
+}
+
+section input:hover{
+    color: black;
+    background-color: gold;
+    border: none;
+}
+
+section img{
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
