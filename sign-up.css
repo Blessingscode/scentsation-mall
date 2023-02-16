@@ -1,56 +1,63 @@
 *{
-    
     text-transform: capitalize;
     text-decoration: none;
     scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-    margin: 0px;
+    margin: 0rem;
     text-align: center;
 }
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+}
+
 header {
     background-color: rgb(245, 244, 242);
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 header h1{
-    padding-top: 50px;
+    padding-top: 5rem;
 }
 
 h3{
-font-size: 25px;
-margin-top: 50px;
-margin-bottom: 20px;
+font-size: 2.5rem;
+margin-top: 5rem;
+margin-bottom: 2rem;
 }
 
 .registration-form{
-padding: 10px;
+padding: 1rem;
 }
 
 .registration-form label{
-    margin: 5px;
+    margin: 5rem;
     display: block;
-    font-size: 15px;
+    font-size: 1.5rem;
 }
 
 .registration-form input{
-   padding: 10px 40px;
-   border-radius: 5px;
+   padding: 1rem 4rem;
+   border-radius: 5rem;
    border-color: rgb(116, 15, 116);
 }
 
 .sign-up input{
-    padding: 10px 20px;
+    padding: 1rem 2rem;
     background: fixed rgb(116, 15, 116);
-    border-radius: 5px;
+    border-radius: 0.5rem;
     color: rgba(255, 255, 255, 0.979);
-    margin-top: 15px;
+    margin-top: 1.5rem;
 }
 
 p{
-    margin-top: 30px;
+    margin-top: 3rem;
 }
 
 a{
@@ -58,16 +65,16 @@ color: rgb(253, 7, 7);
 }
 
 .checkbox{
-    margin-top: 30px;
+    margin-top: 3rem;
 }
 
 footer{
     background: fixed rgb(116, 15, 116);
     color: rgba(255, 255, 255, 0.966);
     text-align: center;
-    padding: 40px;
-    margin-top: 80px;
-    font-size: 20px;
+    padding: 4rem;
+    margin-top: 8rem;
+    font-size: 2rem;
 }
 
 @media (1200px) {

@@ -1,10 +1,13 @@
 *{
-    margin: 0; padding: 0;
+    margin: 0rem; padding: 0rem;
     text-transform: capitalize;
-    box-sizing: border-box;
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
     scroll-behavior: smooth;
+}
+
+html{
+    font-size: 62.5%;
 }
 
 body{
@@ -12,41 +15,42 @@ body{
     justify-content: center;
     align-items: center;
     background: white;
+    box-sizing: border-box;
 }
 
 .container{
-    padding: 50px 70px;
-    margin-top: 50px;
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 5rem 7rem;
+    margin-top: 5rem;
+    border-radius: 1.6rem;
+    box-shadow: 0 0.4rem 3rem rgba(0, 0, 0, 0.1);
 }
 
 img{
-    width: 120px;
-    height: 120px;
-    margin-left: 70px;
+    width: 12rem;
+    height: 12rem;
+    margin-left: 7rem;
 }
 
 .user-input-box{
-    margin: 10px 0px;
+    margin: 1rem 0rem;
 }
 
 .user-input-box input{
     display: flex;
-    margin-top: 5px;
-    border-radius: 5px;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
     border-color: rgb(110, 30, 110);
-    padding: 10px 40px;
+    padding: 1rem 4rem;
 }
 
 .form-submit-btn{
-    margin: 10px 0px;
+    margin: 1rem 1rem;
 }
 
 .form-submit-btn input{
-    padding: 5px 10px;
-    margin: 15px;
-    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin: 1.5rem;
+    border-radius: 0.5rem;
     border-color: rgb(110, 30, 110);
 
 }
@@ -62,7 +66,7 @@ a{
 }
 
 p{
-    margin-top: 30px;
+    margin-top: 3rem;
 }
 
 @media (max-width: 600px){
@@ -80,21 +84,3 @@ p{
 @media (1200px) {
     
 }
-
-/*
-@media (max-width: 600px) {
-    .container{
-        min-width: 280px;
-    }
-    .user-input-box{
-        margin-bottom: 12px;
-        width: 100%;
-    }
-    .main-user-info{
-        max-height: 380px;
-        overflow: auto;
-    }
-    .main-user-info::-webkit-scrollbar{
-        width: 0;
-    }
-}*/
