@@ -4,6 +4,7 @@
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
     scroll-behavior: smooth;
+    border-radius: border-box;
 }
 
 html{
@@ -15,32 +16,43 @@ body{
     justify-content: center;
     align-items: center;
     background: white;
-    box-sizing: border-box;
 }
 
 .container{
-    padding: 5rem 7rem;
+    padding: 5rem 5rem;
     margin-top: 5rem;
     border-radius: 1.6rem;
     box-shadow: 0 0.4rem 3rem rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 img{
     width: 12rem;
     height: 12rem;
-    margin-left: 7rem;
+    margin-left: 2rem;
 }
 
 .user-input-box{
     margin: 1rem 0rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 .user-input-box input{
-    display: flex;
     margin-top: 0.5rem;
     border-radius: 0.5rem;
     border-color: rgb(110, 30, 110);
     padding: 1rem 4rem;
+}
+
+.user-input-box label{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.check-box label{
+    font-size: 2rem;
 }
 
 .form-submit-btn{
@@ -61,12 +73,14 @@ img{
 }
 
 a{
-    color: rgb(255, 0, 0);
+    color: #ff0000;
     cursor: pointer;
+    font-size: 2rem;
 }
 
 p{
     margin-top: 3rem;
+    font-size: 2rem;
 }
 
 @media (max-width: 600px){

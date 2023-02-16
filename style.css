@@ -3,14 +3,11 @@
     margin: 0rem;
     text-decoration: none;
     cursor: pointer;
+    box-sizing: border-box;
 }
 
 html{
     font-size: 62.5%;
-}
-
-body{
-box-sizing: border-box;
 }
 
 header{
@@ -58,6 +55,7 @@ main p{
     margin-left: 5rem;
     margin-top: 1rem;
     line-height: 2.5rem;
+    font-size: 1.8rem;
 }
 
 main input{
