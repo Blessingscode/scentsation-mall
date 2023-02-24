@@ -4,29 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Scentsation mall</title>
-</head>
-<body>
-    
-<header>
-    <h1>Scentsation <span>Mall</span></h1>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Products</a>
-        <a href="#">About</a>
-        <a href="#">Reviews</a>
-        <a href="sign-up.html">Sign up</a>
-    </nav>
-</header>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
 
-<main>
-    <img src="./images/20220615_154930-removebg-preview.png">
-    <h1>Fresh Fragrances</h1>
-    <h5>For The Confidence You Need.</h5>
-    <p>Our Massive Collection Of Fragrances Hugely Surpasses What You Could Find At Any Individual Shop.<br>We Also Offer Reviews Of All Of The Perfumes We Stock, Making It Easy To Find What Youre Looking For.</p>
-    <input type="button" value="Shop Now" name="Shop now" id="shop now">
-</main>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="toggle.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Scentsation <span>Mall</span></div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="testimonial.html">Testimonial</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="sign-up.html">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="toggle-menu">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn"><i class="fa-solid fa-bars fa-3x"></i></button>
+            
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="products.html">Products</a>
+                    <a href="testimonial.html">Testimonial</a>
+                    <a href="about-us.html">About Us</a>
+                    <a href="sign-up.html">Sign Up</a>
+                    <a href="login.html">Login</a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+      
+    <section>
+        <div class="main">
+            <img src="images\logo.png">
+            <h2><span>Fresh </span>Fragrances</h2>
+            <h5>For The Confidence You Need.</h5>
+            <p>Our Massive Collection Of Fragrances Hugely Surpasses What You Could Find At Any Individual Shop. <br>We Also Offer Reviews Of All Of The Perfumes We Stock, Making It Easy To Find What Youre Looking For.</p>
+            <a href="products.html">Shop Now</a>
+        </div>
+    </section>
+  
 
 </body>
 </html> 
