@@ -163,9 +163,9 @@ h2 span{
   background-color: #740f74;
   width: 100%;
   color: #ebe9eb;
-  padding: 1rem;
+  padding: 2rem;
   font-size: 2rem;
-  margin-top: 6rem;
+  margin-top: 8rem;
 }
 
 .footer i{
@@ -204,7 +204,7 @@ h2 span{
 
   body{
     font-size: 50%;
-    width: 100%;
+    min-height: 100vh;
   }
 
   .footer{
