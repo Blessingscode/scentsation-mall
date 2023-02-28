@@ -78,6 +78,7 @@ h4{
 h6{
     font-size: 1.8rem;
     margin-top: 1.5rem;
+    margin-bottom: 5rem;
 }
 
 a{
@@ -93,12 +94,10 @@ color: #fd0707;
 }
 
 .footer{
-    margin-top: 8rem;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #740f74;
-    width: 100%;
     color: #ebe9eb;
     padding: 2rem;
     font-size: 2rem;
@@ -126,32 +125,6 @@ color: #fd0707;
     body{
         font-size: 1.2rem;
     }
-/*
-    h4 {
-        font-size: 2rem;
-        margin-top: 2.5rem;
-        margin-bottom: 1rem;
-    }
-
-    .registration-form input{
-        padding: 0.8rem 3rem;
-        font-size: 1.2rem;
-    }
-
-    .sign-up input{
-        padding: 0.8rem 2rem;
-        font-size: 1.2rem;
-        margin-top: 1rem;
-    }
-
-    h6 {
-        font-size: 1.5rem;
-        margin-top: 1.2rem;
-    }
-
-    .checkbox label{
-        font-size: 1.5rem;
-    }*/
 
     .footer{
         padding-left: 1rem;
@@ -159,3 +132,4 @@ color: #fd0707;
         flex-direction: row;
         align-items: center;
     }
+}
