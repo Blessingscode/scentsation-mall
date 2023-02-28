@@ -78,7 +78,7 @@ h4{
 h6{
     font-size: 1.8rem;
     margin-top: 1.5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
 }
 
 a{
@@ -131,5 +131,6 @@ color: #fd0707;
         font-size: 1rem;
         flex-direction: row;
         align-items: center;
+        margin-bottom: 0;
     }
 }
