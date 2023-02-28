@@ -49,6 +49,7 @@ h5{
   margin-top: 10rem;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #740f74;
   color: #ebe9eb;
   padding: 2rem;
@@ -73,9 +74,11 @@ h5{
     align-items: center;
     padding-left: 1rem;
   }
-  footer p{
-    font-size: 1rem;
-  }
+
+.footer p{
+  font-size: 1rem;
+}
+
   p{
     font-size: 1.5rem;
   }

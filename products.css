@@ -82,6 +82,7 @@ h1 span{
     margin-top: 10rem;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #740f74;
     width: 100%;
     color: #ebe9eb;
