@@ -153,4 +153,5 @@ color: #fd0707;
         font-size: 1rem;
         flex-direction: row;
         align-items: center;
+        margin: 0;
     }
