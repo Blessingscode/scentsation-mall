@@ -1,9 +1,7 @@
 *{
-    text-transform: capitalize;
     text-decoration: none;
     margin: 0;
     padding: 0;
-    text-align: center;
     box-sizing: border-box;
 }
 
@@ -16,10 +14,18 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 header {
     background: #ebe9eb;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-bottom: 1.5rem;
 }
 
@@ -55,6 +61,11 @@ h4{
    border-color: #740f74;
 }
 
+.sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .sign-up input{
     padding: 1rem 2rem;
     background: fixed #740f74;
