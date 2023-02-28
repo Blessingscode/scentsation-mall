@@ -51,7 +51,7 @@ h4{
 
 .registration-form input{
    padding: 1rem 4rem;
-   border-radius: 5rem;
+   border-radius: 0.5rem;
    border-color: #740f74;
 }
 
@@ -99,6 +99,7 @@ color: #fd0707;
 
  /* Media Query for screens with max-width 768px */
 @media screen and (max-width: 768px) {
+
     header {
         flex-direction: row;
         align-items: center;
@@ -136,8 +137,8 @@ color: #fd0707;
     }
 
     .footer{
-        margin-top: 5rem;
-        font-size: 1.5rem;
+        padding-left: 1rem;
+        font-size: 1rem;
         flex-direction: row;
         align-items: center;
     }

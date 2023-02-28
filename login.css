@@ -20,8 +20,7 @@ body{
 }
 
 .container{
-    padding: 1.5rem 2rem 2rem;
-    margin: 4rem;
+    padding: 1.5rem 2rem;
     border-radius: 1.6rem;
     box-shadow: 0 0.4rem 3rem rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -92,11 +91,9 @@ p{
 /* CSS code for screen width less than or equal to 768px */
 
 @media screen and (max-width: 768px) {
-    .container {
-      margin: 2rem;
-      padding: 1rem;
+    html{
+      font-size: 50%;
     }
-  
     img {
       width: 8rem;
       height: 8rem;

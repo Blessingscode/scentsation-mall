@@ -83,6 +83,9 @@ h1{
     font-size: 50%;
   }
   
+  h1{
+    font-size: 2rem;
+  }
 
   .review {
     margin: 2rem;
@@ -93,6 +96,8 @@ h1{
 .footer {
   flex-direction: row;
   align-items: center;
+  padding-left: 1rem;
+  font-size: 1rem;
 }
 
 .customer-name{
