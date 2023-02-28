@@ -10,17 +10,15 @@ html{
 }
   
 body{
-  height: 100%;
   font-family: 'Roboto', sans-serif;
 }
 
 
 h1{
-  font-size: 5rem;
-  /*margin: 3rem;*/
+  font-size: 3rem;
   text-align: center;
   background: #ebe9eb;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .all-reviews{
@@ -42,7 +40,6 @@ h1{
   box-shadow: 0 0.4rem 3rem #0000001a;
   margin: 4rem 3rem;
   padding: 5rem;
-  /*line-height: 25px;*/
    border-radius: 1rem;
     
 }
@@ -53,7 +50,7 @@ h1{
 }
 
 .customer-name{
-  font-size: 2rem;
+  font-size: 3rem;
   background: #ce99ce;
   padding: 0.5rem 1rem;
   border-radius: 1rem;
@@ -62,4 +59,42 @@ h1{
 
 .customer-review{
   font-size: 1.5rem;
+}
+
+.footer{
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  background-color: #740f74;
+  width: 100%;
+  color: #ebe9eb;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.footer i{
+ padding-left: 2rem;
+ color: white;
+}
+
+@media (max-width: 767px) {
+
+  html {
+    font-size: 50%;
+  }
+  
+
+  .review {
+    margin: 2rem;
+    padding: 2rem;
+  }
+}
+
+.footer {
+  flex-direction: row;
+  align-items: center;
+}
+
+.customer-name{
+  background: none;
 }

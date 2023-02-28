@@ -12,15 +12,14 @@ html{
 }
 
 body{
-    font-size: 15px;
+    font-size: 1.5rem;
     font-family: 'Roboto', sans-serif;
 }
 
 h1{
-    font-size: 5rem;
+    font-size: 4rem;
     margin-bottom: 2.5rem;
-    /*margin-top: 2rem;*/
-    padding: 1.5rem;
+    padding: 0.5rem;
     text-align: center;
     background: #ebe9eb;
 }
@@ -45,10 +44,9 @@ h1 span{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 1.5rem 0;
-    padding: 5rem;
+    margin: 0.5rem 0;
+    padding: 3rem;
     line-height: 25px;
-    
 }
 
 .product img{
@@ -80,4 +78,36 @@ h1 span{
     transform: scale(1.1);
 }
 
+.footer{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    background-color: #740f74;
+    width: 100%;
+    color: #ebe9eb;
+    padding: 2rem;
+    font-size: 2rem;
+ }
+ 
+ .footer i{
+   padding-left: 2rem;
+   color: #ffffff;
+ }
 
+
+ @media screen and (max-width: 768px) {
+    body {
+      font-size: 1.4rem;
+    }
+  
+    .product {
+      width: 100%;
+      padding: 2rem;
+    }
+
+    .footer{
+        flex-direction: row;
+        align-items: center;
+        padding-left: 1rem;
+    }
+  }

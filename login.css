@@ -85,6 +85,57 @@ a{
 }
 
 p{
-    margin-top: 3rem;
+    margin: 2rem 1rem;
     font-size: 2rem;
 }
+
+/* CSS code for screen width less than or equal to 768px */
+
+@media screen and (max-width: 768px) {
+    .container {
+      margin: 2rem;
+      padding: 1rem;
+    }
+  
+    img {
+      width: 8rem;
+      height: 8rem;
+      margin-left: 8.5rem;
+      margin-bottom: 1rem;
+    }
+  
+    .user-input-box {
+      margin: 0;
+    }
+  
+    .user-input-box input {
+      margin-top: 0.5rem;
+      padding: 1rem;
+    }
+  
+    .user-input-box label {
+      font-size: 1.8rem;
+      margin-top: 1.5rem;
+    }
+  
+    .check-box label {
+      font-size: 1.8rem;
+    }
+  
+    .form-submit-btn {
+      margin: 1rem 0;
+    }
+  
+    .form-submit-btn input {
+      padding: 0.5rem;
+      margin: rem 0;
+    }
+  
+    a {
+      font-size: 1.5rem;
+    }
+  
+    p {
+      font-size: 1.5rem;
+    }
+  }  

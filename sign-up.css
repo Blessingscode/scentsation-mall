@@ -23,8 +23,14 @@ header {
     margin-bottom: 1.5rem;
 }
 
+header img{
+    width: 100px;
+    padding: 0;
+    margin: 0;
+}
+
 header h1{
-    padding-top: 5rem;
+    padding-top: 4rem;
 }
 
 h4{
@@ -57,9 +63,9 @@ h4{
     margin-top: 1.5rem;
 }
 
-p{
-    margin-top: 2rem;
+h6{
     font-size: 2rem;
+    margin-top: 1.5rem;
 }
 
 a{
@@ -74,11 +80,64 @@ color: #fd0707;
     font-size: 2rem;
 }
 
-footer{
-    background: fixed #740f74;
-    color: #fffffff6;
-    text-align: center;
-    padding: 4rem;
-    margin-top: 5rem;
+.footer{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    background-color: #740f74;
+    width: 100%;
+    color: #ebe9eb;
+    padding: 2rem;
     font-size: 2rem;
-}
+ }
+ 
+ .footer i{
+   padding-left: 2rem;
+   color: white;
+ }
+
+
+ /* Media Query for screens with max-width 768px */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    header h1 {
+        padding-top: 0;
+        display: none;
+    }
+
+    h4 {
+        font-size: 2rem;
+        margin-top: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .registration-form input{
+        padding: 0.8rem 3rem;
+        font-size: 1.2rem;
+    }
+
+    .sign-up input{
+        padding: 0.8rem 2rem;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+
+    h6 {
+        font-size: 1.5rem;
+        margin-top: 1.2rem;
+    }
+
+    .checkbox label{
+        font-size: 1.5rem;
+    }
+
+    .footer{
+        margin-top: 5rem;
+        font-size: 1.5rem;
+        flex-direction: row;
+        align-items: center;
+    }
