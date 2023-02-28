@@ -108,6 +108,7 @@ nav {
 }
 
 .main h5{
+  margin-top: 1rem;
   font-size: 3rem;
   color: #d1990c
 }
@@ -165,7 +166,7 @@ h2 span{
   color: #ebe9eb;
   padding: 2rem;
   font-size: 2rem;
-  margin-top: 10rem;
+  margin-top: 12rem;
 }
 
 .footer i{
